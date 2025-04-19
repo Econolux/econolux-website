@@ -1,5 +1,11 @@
-git init
-git remote add origin https://github.com/your-username/econolux-website.git
-git add .
-git commit -m "initial commit"
-git push -u origin master
+econolux-website/
+├─ pages/
+│  └─ index.js         ← your main site (converted to Next.js)
+├─ public/
+│  └─ favicon.ico      ← optional
+├─ package.json
+├─ README.md
+├─ tailwind.config.js
+├─ postcss.config.js
+├─ styles/
+│  └─ globals.css
